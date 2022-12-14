@@ -8,5 +8,5 @@ try {
     $link = mysqli_connect($host, $user, $pass, $db);
     mysqli_query($link, "SET NAMES utf8");
 } catch (Exception $e) {
-    echo " error on:" . $e . " :: " . mysqli_error($link);
+    echo "An error is" . $e . " :: " . mysqli_error($link);
 }

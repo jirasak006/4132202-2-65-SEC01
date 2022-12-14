@@ -19,4 +19,4 @@ services:
       MYSQL_USER: mysql
       MYSQL_PASSWORD: 1234
     ports:
-      - "db_test"
+      - "3306:3306"
